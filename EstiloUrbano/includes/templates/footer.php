@@ -36,6 +36,8 @@
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
 
+  <!-- Iconeos -->
+  <script src="https://kit.fontawesome.com/30869d6a2d.js" crossorigin="anonymous"></script>
 </body>
 
 </html>

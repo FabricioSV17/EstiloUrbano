@@ -2,6 +2,7 @@
   // include 'includes/templates/header.php';
   require 'includes/funciones.php';
   incluirTemplate('header');
+  
 ?>
   <!-- ======= Hero Section ======= -->
   <section id="hero">
@@ -9,7 +10,7 @@
       <h3>Bienvenidos a <strong>EstiloUrbano</strong></h3>
       <h1>Somos tu mejor Opcion</h1>
       <h2>Tenemos variedades de diseños y estilos</h2>
-      <a href="#about" class="btn-get-started scrollto">REGISTRATE</a>
+      <a href="FormularioR.php" class="btn-get-started scrollto">REGISTRATE</a>
     </div>
   </section><!-- End Hero -->
 
@@ -103,7 +104,7 @@
         <div class="text-center">
           <h3>Unete a UrbanClub</h3>
           <p>Registrate en nuestra pagina, para una mejor experiencia de calidad en nuestra pagina</p>
-          <a class="cta-btn" href="#">Registrate</a>
+          <a class="cta-btn" href="FormularioR.php">Registrate</a>
         </div>
 
       </div>
@@ -112,7 +113,7 @@
     <!-- ======= Portfolio Section ======= -->
     <section id="portfolio" class="portfolio">
       <div class="container">
-
+        
         <div class="section-title">
           <h2>Galeria</h2>
           <h3>Hecha un vistazo a nuestra <span>GaleriaUrbana</span></h3>
@@ -491,6 +492,12 @@
                 <i class="bi bi-phone"></i>
                 <h4>Call:</h4>
                 <p>+1 5589 55488 55s</p>
+              </div>
+
+              <div class="phone">
+                <i class="fas fa-users"></i>
+                <a href="../pos_venta/index.php"><h4>Empresa EstiloUrbano:</h4></a>
+                <p>Sito web de los trabajadores</p>
               </div>
 
             </div>
